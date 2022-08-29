@@ -39,12 +39,6 @@ bits value must be 4 bytes
   </p>
 </details>
 
-  <details><summary>blockchain_fundamentals.py.py</summary>
-<p>
-  
-  </p>
-</details>
-
   <details><summary>bs58.py</summary>
 <p>
   
