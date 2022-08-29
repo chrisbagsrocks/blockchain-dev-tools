@@ -53,7 +53,36 @@ Alternatively, copy all of the `*.py` files except `blockchain_fundamentals.py` 
   
   <details><summary>msgprefixgen.py</summary>
 <p>
+
+## Generates pchMessageStart prefixes
+You must define "COIN" with two commands, ```COIN=examplecoin``` and ```export COIN```
+
+Then you can run:
+  ```
+  ./msgprefixgen.py
+  ```
   
+Example
+```
+./msgprefixgen.py
+Mainnet
+pchMessageStart[0] = 0x84;
+pchMessageStart[1] = 0xde;
+pchMessageStart[2] = 0xab;
+pchMessageStart[3] = 0xd5;
+
+Testnet
+pchMessageStart[0] = 0xb0;
+pchMessageStart[1] = 0xd1;
+pchMessageStart[2] = 0xb6;
+pchMessageStart[3] = 0xc8;
+
+Regtest
+pchMessageStart[0] = 0xcf;
+pchMessageStart[1] = 0xbe;
+pchMessageStart[2] = 0xc1;
+pchMessageStart[3] = 0xab;
+```
   </p>
 </details>
   
