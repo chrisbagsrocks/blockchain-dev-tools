@@ -18,6 +18,24 @@ Alternatively, copy all of the `*.py` files except `blockchain_fundamentals.py` 
   <details><summary>bits.py</summary>
 <p>
   
+  ## Convert bits to and from compact or extended format
+You must define "COIN" with two commands, ```COIN=examplecoin``` and ```export COIN```
+
+Then you can run:
+  ```
+  ./bits.py
+  ```
+ usage: bits.py [-h] [-c] value 
+
+	Example
+```
+./bits.py -c 0x1e0ffff0 
+coming soon
+```
+```
+./bits.py 486604799
+bits value must be 4 bytes
+```
   </p>
 </details>
 
